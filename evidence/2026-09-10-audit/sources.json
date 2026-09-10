@@ -1,0 +1,22 @@
+{
+  "retrieval_date": "2026-09-10",
+  "sources": {
+    "attt.html": "https://arxiv.org/html/2607.03441v1",
+    "self-guided.html": "https://arxiv.org/html/2607.09415v1",
+    "vane.html": "https://arxiv.org/html/2608.09448v2",
+    "beyond-perplexity.html": "https://arxiv.org/html/2607.00368v1",
+    "decision-theoretic.html": "https://arxiv.org/html/2606.15569v1",
+    "attt-abstract.html": "https://arxiv.org/abs/2607.03441v1",
+    "sttt-repository.json": "https://api.github.com/repos/TianHongZXY/S-TTT",
+    "sttt-commit-response.json": "https://api.github.com/repos/TianHongZXY/S-TTT/commits/HEAD",
+    "attt-repository-search.json": "https://api.github.com/search/repositories?q=%222607.03441%22",
+    "mlx-commit.json": "https://api.github.com/repos/ml-explore/mlx-lm/commits/HEAD",
+    "qwen-model.json": "https://huggingface.co/api/models/Qwen/Qwen3-0.6B",
+    "mlx-trainer.py": "https://raw.githubusercontent.com/ml-explore/mlx-lm/86b48c461feebf87c58788655b7e57b5574b9e6d/mlx_lm/tuner/trainer.py",
+    "mlx-utils.py": "https://raw.githubusercontent.com/ml-explore/mlx-lm/86b48c461feebf87c58788655b7e57b5574b9e6d/mlx_lm/tuner/utils.py",
+    "mlx-lora.py": "https://raw.githubusercontent.com/ml-explore/mlx-lm/86b48c461feebf87c58788655b7e57b5574b9e6d/mlx_lm/tuner/lora.py",
+    "mlx-LORA.md": "https://raw.githubusercontent.com/ml-explore/mlx-lm/86b48c461feebf87c58788655b7e57b5574b9e6d/mlx_lm/LORA.md",
+    "mlx-setup.py": "https://raw.githubusercontent.com/ml-explore/mlx-lm/86b48c461feebf87c58788655b7e57b5574b9e6d/setup.py",
+    "mlx-qwen3.py": "https://raw.githubusercontent.com/ml-explore/mlx-lm/86b48c461feebf87c58788655b7e57b5574b9e6d/mlx_lm/models/qwen3.py"
+  }
+}

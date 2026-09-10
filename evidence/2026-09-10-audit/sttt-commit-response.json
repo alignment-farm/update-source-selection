@@ -1,0 +1,5 @@
+{
+  "message": "Git Repository is empty.",
+  "documentation_url": "https://docs.github.com/rest/commits/commits#get-a-commit",
+  "status": "409"
+}

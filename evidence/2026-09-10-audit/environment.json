@@ -1,0 +1,110 @@
+{
+  "observed_at": "2026-09-10T14:16:49.497238+00:00",
+  "architecture": "arm64",
+  "python": "3.14.4",
+  "tools": {
+    "uv": "/Users/macos-user/.local/bin/uv",
+    "docker": "/usr/local/bin/docker",
+    "codex": "/Users/macos-user/.local/bin/codex",
+    "agent": "/Users/macos-user/.local/bin/agent",
+    "tectonic": null,
+    "pdflatex": null,
+    "latexmk": null
+  },
+  "modules_in_probe_interpreter": {
+    "torch": false,
+    "mlx": false,
+    "mlx_lm": false,
+    "transformers": false,
+    "peft": false
+  },
+  "hardware": {
+    "command": [
+      "system_profiler",
+      "SPHardwareDataType",
+      "SPDisplaysDataType"
+    ],
+    "returncode": 0,
+    "stdout": "      Model Name: MacBook Air\n      Chip: Apple M3\n      Total Number of Cores: 8 (4 Performance and 4 Efficiency)\n      Memory: 8 GB\n      Total Number of Cores: 10\n      Metal: Supported",
+    "stderr": "2026-09-10 10:16:49.771 system_profiler[21860:290015] Error fetching hw.cpufamily: -1\n"
+  },
+  "checks": [
+    {
+      "command": [
+        "sw_vers"
+      ],
+      "returncode": 0,
+      "stdout": "ProductName:\t\tmacOS\nProductVersion:\t\t26.6.2\nBuildVersion:\t\t25G83\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "df",
+        "-h",
+        "."
+      ],
+      "returncode": 0,
+      "stdout": "Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk3s1   228Gi   135Gi    70Gi    66%    742k  731M    0%   /System/Volumes/Data\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "uv",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "uv 0.11.8 (0e961dd9a 2026-04-27 aarch64-apple-darwin)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "docker",
+        "model",
+        "version"
+      ],
+      "returncode": 0,
+      "stdout": "Client:\n Version:    v1.2.6\n OS/Arch:    darwin/arm64\n\nServer:\n Version:    (not reachable)\n Engine:     Docker Engine\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "docker",
+        "model",
+        "list"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "unable to initialize standalone model runner: unable to identify existing standalone model runner: unable to prune stopped model runner containers: unable to identify model runner containers: permission denied while trying to connect to the docker API at unix:///Users/macos-user/.docker/run/docker.sock\n"
+    },
+    {
+      "command": [
+        "docker",
+        "model",
+        "--help"
+      ],
+      "returncode": 0,
+      "stdout": "Usage:  docker model COMMAND\n\nDocker Model Runner\n\nManagement Commands:\n  context          Manage Docker Model Runner contexts\n\nCommands:\n  bench            Benchmark a model's performance at different concurrency levels\n  df               Show Docker Model Runner disk usage\n  gateway          Run an OpenAI-compatible LLM gateway\n  inspect          Display detailed information on one model\n  install-runner   Install Docker Model Runner (Docker Engine only)\n  launch           Launch an app configured to use Docker Model Runner\n  list             List the models pulled to your local environment\n  logs             Fetch the Docker Model Runner logs\n  package          Package a model into a Docker Model OCI artifact\n  ps               List running models\n  pull             Pull a model from Docker Hub or HuggingFace to your local environment\n  purge            Remove all models\n  push             Push a model to Docker Hub or Hugging Face\n  reinstall-runner Reinstall Docker Model Runner (Docker Engine only)\n  requests         Fetch requests+responses from Docker Model Runner\n  restart-runner   Restart Docker Model Runner (Docker Engine only)\n  rm               Remove local models downloaded from Docker Hub\n  run              Run a model and interact with it using a submitted prompt or chat mode\n  search           Search for models on Docker Hub and HuggingFace\n  show             Show information for a model\n  skills           Install Docker Model Runner skills for AI coding assistants\n  start-runner     Start Docker Model Runner (Docker Engine only)\n  status           Check if the Docker Model Runner is running\n  stop-runner      Stop Docker Model Runner (Docker Engine only)\n  tag              Tag a model\n  uninstall-runner Uninstall Docker Model Runner (Docker Engine only)\n  unload           Unload running models\n  version          Show the Docker Model Runner version\n\nRun 'docker model COMMAND --help' for more information on a command.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "docker",
+        "context",
+        "ls"
+      ],
+      "returncode": 0,
+      "stdout": "NAME              DESCRIPTION                               DOCKER ENDPOINT                                    ERROR\ndefault           Current DOCKER_HOST based configuration   unix:///var/run/docker.sock                        \ndesktop-linux *   Docker Desktop                            unix:///Users/macos-user/.docker/run/docker.sock   \n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--short"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    }
+  ]
+}

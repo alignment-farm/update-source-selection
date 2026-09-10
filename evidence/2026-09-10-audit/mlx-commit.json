@@ -1,0 +1,101 @@
+{
+  "sha": "86b48c461feebf87c58788655b7e57b5574b9e6d",
+  "node_id": "C_kwDOOG6IBtoAKDg2YjQ4YzQ2MWZlZWJmODdjNTg3ODg2NTViN2U1N2I1NTc0YjllNmQ",
+  "commit": {
+    "author": {
+      "name": "aidiffuser",
+      "email": "77209370+aidiffuser@users.noreply.github.com",
+      "date": "2026-09-10T12:55:43Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-09-10T12:55:43Z"
+    },
+    "message": "DeepSeek-V3.2/GLM DSA: fix silent >128k top-k corruption + sparse-gather prefill (#1454)\n\n* fix(deepseek_v32): work around MLX non-last-axis sum bug corrupting DSA top-k past 128k\n\n---------\n\nCo-authored-by: aidiffuser <your-noreply-email@users.noreply.github.com>",
+    "tree": {
+      "sha": "fc5514819ed09cb518558c0fca920a35e702a61b",
+      "url": "https://api.github.com/repos/ml-explore/mlx-lm/git/trees/fc5514819ed09cb518558c0fca920a35e702a61b"
+    },
+    "url": "https://api.github.com/repos/ml-explore/mlx-lm/git/commits/86b48c461feebf87c58788655b7e57b5574b9e6d",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqoqjPCRC1aQ7uu5UhlAAA7e8QAGkfrBJ3T7dQc7JrPyUkoa9g\nhleuGzRBIuKiho2u/sZQZ1Hf69WqEuYKmOxJ0uXl3DgtmNdqRbvtRjVXqg/npqw6\ng+SywKVrJxq5WaJm8iZ6wqAEiC5Lazm8meCgzADc62/wSo2uEb8AYWjAfYsnTthu\nxoxW8hAM4EDLoiir1VaiZ/LTIVdvoq/5hJXZ3viDYxtVOQpVjvIU/7L03LaAglh4\nZNKgIUMGKRbhkKvrZmkdQCsIX2OUKjQTaim5VQCaIqc21ZU4AIyGudJWYaR4XBd+\nwJqImRiR7YFzCFPw7CnRpCBxHpvqcq6+K1G7etvm4Y8/7irfG2AOKTIjc/JfyetX\nY5bBFE7M5Mq6CCDyEbaDW9ZuimqVFyXob3BPwuADv4K2yCN2GLHdYj2jbpQYwIXh\nAP+37fGa0WcFUAnegZ5jEytuVXc8omyQgFO8cRkjvHjWAK/zyzYTGTU3RBnrgwXv\nL3gMt79ILEEUg6Nt5dQTh/HIDiZ5Hu5a02FgRsaL+WfPqw+SBHAnWjWjEcm/2KMb\nAchXZ6hMf4hgnKRTs/5eRuIQ1FdfozxZcmJZ6/3PcEcU9fDm088QDvQFBZeg27qS\nbWe4uexcMdgEyU7+n3Fl0QxVUgIogx7MMk81+eUXAVBaa6kMM/MKajuGFPkMlOSO\nlFFjt5NWhHg/61IpA+3R\n=IpWC\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree fc5514819ed09cb518558c0fca920a35e702a61b\nparent 745352405f0909540760fd9b9ff16d933fd9c82b\nauthor aidiffuser <77209370+aidiffuser@users.noreply.github.com> 1789044943 +0200\ncommitter GitHub <noreply@github.com> 1789044943 +0200\n\nDeepSeek-V3.2/GLM DSA: fix silent >128k top-k corruption + sparse-gather prefill (#1454)\n\n* fix(deepseek_v32): work around MLX non-last-axis sum bug corrupting DSA top-k past 128k\n\n---------\n\nCo-authored-by: aidiffuser <your-noreply-email@users.noreply.github.com>",
+      "verified_at": "2026-09-10T12:55:43Z"
+    }
+  },
+  "url": "https://api.github.com/repos/ml-explore/mlx-lm/commits/86b48c461feebf87c58788655b7e57b5574b9e6d",
+  "html_url": "https://github.com/ml-explore/mlx-lm/commit/86b48c461feebf87c58788655b7e57b5574b9e6d",
+  "comments_url": "https://api.github.com/repos/ml-explore/mlx-lm/commits/86b48c461feebf87c58788655b7e57b5574b9e6d/comments",
+  "author": {
+    "login": "aidiffuser",
+    "id": 77209370,
+    "node_id": "MDQ6VXNlcjc3MjA5Mzcw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/77209370?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/aidiffuser",
+    "html_url": "https://github.com/aidiffuser",
+    "followers_url": "https://api.github.com/users/aidiffuser/followers",
+    "following_url": "https://api.github.com/users/aidiffuser/following{/other_user}",
+    "gists_url": "https://api.github.com/users/aidiffuser/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/aidiffuser/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/aidiffuser/subscriptions",
+    "organizations_url": "https://api.github.com/users/aidiffuser/orgs",
+    "repos_url": "https://api.github.com/users/aidiffuser/repos",
+    "events_url": "https://api.github.com/users/aidiffuser/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/aidiffuser/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "745352405f0909540760fd9b9ff16d933fd9c82b",
+      "url": "https://api.github.com/repos/ml-explore/mlx-lm/commits/745352405f0909540760fd9b9ff16d933fd9c82b",
+      "html_url": "https://github.com/ml-explore/mlx-lm/commit/745352405f0909540760fd9b9ff16d933fd9c82b"
+    }
+  ],
+  "stats": {
+    "total": 6,
+    "additions": 5,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "4f8ca996a15f47841d61c25df8430df303b314d3",
+      "filename": "mlx_lm/models/deepseek_v32.py",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "changes": 6,
+      "blob_url": "https://github.com/ml-explore/mlx-lm/blob/86b48c461feebf87c58788655b7e57b5574b9e6d/mlx_lm%2Fmodels%2Fdeepseek_v32.py",
+      "raw_url": "https://github.com/ml-explore/mlx-lm/raw/86b48c461feebf87c58788655b7e57b5574b9e6d/mlx_lm%2Fmodels%2Fdeepseek_v32.py",
+      "contents_url": "https://api.github.com/repos/ml-explore/mlx-lm/contents/mlx_lm%2Fmodels%2Fdeepseek_v32.py?ref=86b48c461feebf87c58788655b7e57b5574b9e6d",
+      "patch": "@@ -108,7 +108,11 @@ def __call__(\n         weights = self.weights_proj(x) * (self.n_heads**-0.5 * self.softmax_scale)\n         weights = weights.swapaxes(-1, -2)[..., None]\n         scores = scores * weights\n-        scores = scores.sum(axis=1, keepdims=True)\n+        # TODO(michalk8): remove once ml-explore/mlx#3784 is merged\n+        if s > 1:\n+            scores = sum(scores[:, h : h + 1] for h in range(scores.shape[1]))\n+        else:\n+            scores = scores.sum(axis=1, keepdims=True)\n         if mask is not None:\n             scores = mx.where(mask, scores, -float(\"inf\"))\n         return mx.argpartition(scores, kth=-self.index_topk, axis=-1)["
+    }
+  ]
+}
